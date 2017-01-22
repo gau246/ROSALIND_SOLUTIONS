@@ -27,8 +27,8 @@ class binarySearch{
 
     public static void main(String [] args) throws IOException{
     	try{
-    		FileInputStream f = new FileInputStream("/Users/gud135/Documents/CSE-465/ROSALIND_SOLUTIONS/rosalind_bins.txt");
-    		//FileOutputStream out=new FileOutputStream("/Users/gud135/Documents/CSE-465/ROSALIND_SOLUTIONS/BinarySearch2");
+    		FileInputStream f = new FileInputStream("file.txt");
+    		
     		BufferedReader br=new BufferedReader(new InputStreamReader(f));
     		String line;
     		line=br.readLine();
