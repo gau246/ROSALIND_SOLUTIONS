@@ -34,8 +34,8 @@ class MajElem{
 
 	public static void main(String [] args) throws IOException{
     	try{
-    		FileInputStream f = new FileInputStream("/Users/gud135/Documents/CSE-465/ROSALIND_SOLUTIONS/rosalind_maj.txt");
-    		//FileOutputStream out=new FileOutputStream("/Users/gud135/Documents/CSE-465/ROSALIND_SOLUTIONS/BinarySearch2");
+    		FileInputStream f = new FileInputStream("file.txt");
+    		
     		BufferedReader br=new BufferedReader(new InputStreamReader(f));
     		String line;
     		
@@ -54,9 +54,7 @@ class MajElem{
     		    int [] G=new int[arr.length];
     		    for(int j=0;j<arr.length;j++){
     				G[j]=Integer.parseInt(arr[j]);
-    				//int element=majority(k,n,G);
-    				//System.out.print(element);
-
+    				
     			}
 
     		int element=majority(k,n,G);
